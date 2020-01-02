@@ -18,7 +18,7 @@
 
 ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_room.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_keeping.PNGraw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_keeping.PNG?raw=true)
 <그림2. SQL developer에서 보인 테이블 구조>
 
 ## 관리자의 프로그램 동작 시나리오는 아래와 같다. 
@@ -150,7 +150,7 @@ d)	체크인
 
 e)	체크인( 예약없이 즉시 체크인 )
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run9.PNG?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run9.png?raw=true)
  
 <그림10. 예약없이 즉시 체크인>
 
