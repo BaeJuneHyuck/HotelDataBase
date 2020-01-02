@@ -8,17 +8,17 @@
 
 아래 그림들은 설계를 토대로 만들어진 테이블들의 모습을 보여준다.
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_employee.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_employee.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_guest.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_guest.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_manager.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_manager.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_reservation.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_reservation.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_room.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_room.PNG?raw=true)
 
-![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_keeping.png?raw=true)
+![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/table_keeping.PNGraw=true)
 <그림2. SQL developer에서 보인 테이블 구조>
 
 ## 관리자의 프로그램 동작 시나리오는 아래와 같다. 
@@ -98,7 +98,7 @@
 
 # 프로그램 실행
 
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run1.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run1.PNG?raw=true)
 
 <그림4. 프로그램 시작 화면>
 
@@ -106,7 +106,7 @@
 
 a)	게스트로 접속하기
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run2.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run2.PNG?raw=true)
  
 <그림5. 게스트 로그인>
 
@@ -114,7 +114,7 @@ Guest 테이블에 저장 되어있는 id와 패스워드를 사용하여 로그
 
 b)	사용 가능 방 출력
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run3.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run3.PNG?raw=true)
   
 <그림5. 방 목록 출력>
 
@@ -122,19 +122,19 @@ b)	사용 가능 방 출력
 
 c)	방 예약
 
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run4.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run4.PNG?raw=true)
   
 <그림6. 예약 성공>
 
 방 번호와 시작시간, 종료시간을 통해 방을 예약한다. 다른 사용자가 방예약을 진행중인 경우 lock 기능을 통해 해당 사용자의 트랜잭션이 종료종료되기까지 대기한다.
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run5.png?raw=true) 
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run6.PNG?raw=true) 
 
 <그림7. 예약 실패>
 
 입력한 정보가 다른 예약정보와 겹치는 경우 해당 정보를 출력하고 예약을 실패로 처리한다.
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run6.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run7.PNG?raw=true)
  
 <그림8. 예약 실패, 잘못된 방 번호>
 
@@ -142,7 +142,7 @@ c)	방 예약
 
 d)	체크인
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run7.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run8.PNG?raw=true)
  
  <그림9. 예약 체크인>
 
@@ -150,7 +150,7 @@ d)	체크인
 
 e)	체크인( 예약없이 즉시 체크인 )
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run8.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run9.PNG?raw=true)
  
 <그림10. 예약없이 즉시 체크인>
 
@@ -161,7 +161,7 @@ e)	체크인( 예약없이 즉시 체크인 )
 
 f)	체크아웃
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run9.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run10.PNG?raw=true)
  
   <그림11. 체크 아웃>
 
@@ -169,7 +169,7 @@ f)	체크아웃
 
 g)	자신의 예약목록 출력 
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run10.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run11.PNG?raw=true)
  
  <그림12. 전체 예약 목록 출력>
 
@@ -180,12 +180,9 @@ g)	자신의 예약목록 출력
 이제 로그아웃을 통해 메인 화면으로 돌아간 뒤 관리자로 로그인 한다. 
 
 
-
-
-
 a)	로그인
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run11.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run12.PNG?raw=true)
  
 <그림13. 로그아웃, 관리자로 로그인>
 
@@ -193,7 +190,7 @@ a)	로그인
 
 b)	방 목록 출력
  
-  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run12.png?raw=true)
+  ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run13.PNG?raw=true)
  
 <그림14. 관리자의 방 목록 출력>
 
@@ -201,7 +198,7 @@ b)	방 목록 출력
 
 c)	하우스키핑 출력
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run13.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run14.PNG?raw=true)
  
 <그림15. 하우스키핑 목록 출력>
 
@@ -209,11 +206,11 @@ c)	하우스키핑 출력
 
 d)	하우스키핑 할당
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run14.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run15.PNG?raw=true)
 	 
 <그림16. 하우스키핑 할당 성공>
 
- ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run15.png?raw=true)
+ ![Preview](https://github.com/BaeJuneHyuck/HotelDataBase/blob/master/capture/run16.PNG?raw=true)
  
 <그림17. 하우스키핑 할당 실패>
 
